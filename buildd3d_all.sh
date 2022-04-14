@@ -44,7 +44,7 @@ mkdir wine-tools wine-win32
 if [ -z ${1} ] 
 then
 	echo Downloading wine...
-	git clone git://source.winehq.org/git/wine.git ./wine-git
+	git clone git://github.com/erfan2255/wine.git ./wine-git
 	if [ $? -ne 0 ]
 	then
 		echo Download failed with error $?
